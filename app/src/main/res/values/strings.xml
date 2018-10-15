@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HometaskVIew</string>
+    <string name="picture">Тут должна быть картинка</string>
+    <string name="hint">Type here a message</string>
+    <string name="description">AWLDlanwdlkanwdlnawldnkalwlkanwdlknawldknalndlnawdlknaldkalwhflikahfjl;jflkneflkahwlfdhlawflkawlakhflkawflkawlfka</string>
+    <string name="button">EMAIL</string>
+    <string name="work">Big data engineer</string>
+    <string name="bachelor">Hydraulics and pneumatic</string>
+    <string name="magistracy">Computer Science</string>
+</resources>
