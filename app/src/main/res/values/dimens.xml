@@ -4,4 +4,5 @@
     <dimen name="mainMargin">16dp</dimen>
     <dimen name="cardMarginLeft">20dp</dimen>
     <dimen name="cardMarginTop">10dp</dimen>
+    <integer name="columns">1</integer>
 </resources>
