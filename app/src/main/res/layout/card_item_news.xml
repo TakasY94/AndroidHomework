@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/card_view"
     android:layout_width="match_parent"
-    android:layout_height="180dp"
-    card_view:cardCornerRadius="4dp"
-    card_view:cardElevation="2dp">
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    style="@style/MyCardViewStyle">
 
 <RelativeLayout
     android:layout_width="match_parent"
@@ -15,7 +15,6 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@mipmap/vk"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:clickable="true"
@@ -35,7 +34,8 @@
             android:layout_height="wrap_content"
             android:text="DARWIN AWARD"
             android:id="@+id/news_category"
-            android:layout_marginTop="@dimen/cardMarginTop"/>
+            android:layout_marginTop="@dimen/cardMarginTop"
+            android:paddingTop="5dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -60,7 +60,8 @@
             android:layout_marginTop="@dimen/cardMarginTop"
             android:text="4 hr. ago, 10.34 AM"
             android:textColor="@color/card_grey"
-            android:textSize="12sp" />
+            android:textSize="12sp"
+            android:paddingBottom="10dp"/>
 
 
     </LinearLayout>

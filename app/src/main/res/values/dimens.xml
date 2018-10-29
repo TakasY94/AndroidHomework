@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="textSize">16sp</dimen>
+    <dimen name="smallTextSize">8sp</dimen>
     <dimen name="mainMargin">16dp</dimen>
+    <dimen name="smallMargin">8dp</dimen>
     <dimen name="cardMarginLeft">20dp</dimen>
     <dimen name="cardMarginTop">10dp</dimen>
+    <dimen name="headerTextSize">16sp</dimen>
+    <dimen name="normalTextSize">14sp</dimen>
     <integer name="columns">1</integer>
 </resources>
