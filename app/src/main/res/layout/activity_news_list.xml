@@ -8,5 +8,9 @@
     android:id="@+id/news_recycler"
     android:scrollbars="vertical">
 
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar_main"/>
+
 
 </android.support.v7.widget.RecyclerView>
